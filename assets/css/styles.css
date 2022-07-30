@@ -253,7 +253,7 @@ img{
   height: calc(100vh - var(--header-height));
   align-content: center;
   text-align: center;
-  margin-top: -40px;
+  margin-top: -30px;
 }
 
 .home__title{
@@ -266,6 +266,7 @@ img{
   font-size: var(--h1-font-size);
   color: var(--title-color);
   margin-bottom: var(--mb-4);
+  padding: 10px;
 }
 
 .home__img{
@@ -471,6 +472,10 @@ img{
   .app__container{
     grid-template-columns: repeat(2,1fr);
     align-items: center;
+  }
+
+  .home__container{
+    margin-top: 20px;
   }
 
   .about__data, .about__initial,
